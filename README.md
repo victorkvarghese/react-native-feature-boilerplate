@@ -31,6 +31,30 @@ suggest starting with a type based architecture and slowly switching to this arc
 * [Jest](https://facebook.github.io/jest/)
 * [Eslint](http://eslint.org/) ([Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
 
+## Project Structure
+
+- `/app` - Contains our React Native App codebase
+  - `/api` - Api module class. Each file will be feature based like ProductAPI, LoginAPI etc
+  - `/components` - universal shared components used by others.
+  - `/config` - Universal styles,images,metrics etc..
+  - `/features` - Config files
+    - `login`- Each folder will be a feature like this.
+      - `reducers` - Reducer associated with this feature [Mostly one, can be multiple]
+      - `sagas` - Sagas related with this particular feature [can have single or muliple sagas associated]
+      - `selectors` - selectors associated with feature
+      - `components` - Components associated with this feature.
+      - `containers` - Containers associated with this feature [**Container - Component Structure**]
+  - `/lib` - lib helper files
+  - `/navigation` - All naviagtion related studd including helpers functions and navigation stack
+    - `NavigationHelpers.js` -  Use this class instead of depending on props.naviagtion
+    - `NavigationService.js` - Service class for naviagtion
+    - `NavigationStack.js` - Stack to define naviagtion. you can split things further if needed
+  - `/store` - Includes everything you need to set up store. 
+    - `reducers` - Combines all feature based reducers
+    - `sagas` - Combines all feature based sagas
+    - `index.js` - Set ups store and export things
+ 
+
 
 
 ## Prerequisites
