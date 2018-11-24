@@ -26,6 +26,7 @@ suggest starting with a type based architecture and slowly switching to this arc
 * [Redux](http://redux.js.org/)
 * [Redux Saga](https://redux-saga.js.org/)
 * [Redux Persist](https://github.com/rt2zz/redux-persist/)
+* [Redux Logger](https://github.com/LogRocket/redux-logger/)
 * [React Navigation](https://reactnavigation.org/) 
 * [Reselect](https://github.com/reduxjs/reselect)
 * [Jest](https://facebook.github.io/jest/)
