@@ -1,10 +1,10 @@
-🚀 React Native Feature Based Boilerplate - September 2018
+🚀 React Native Feature Based Boilerplate - December 2018
 ==========================================================
 
-Feature based Architecture for developing Scalable React Native Apps (0.57.4)
+Feature based Architecture for developing Scalable React Native Apps (0.57.8)
 
 
-[![React Native](https://img.shields.io/badge/React%20Native-v0.57-blue.svg)](https://facebook.github.io/react-native/)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.57.8-blue.svg)](https://facebook.github.io/react-native/)
 [![React Navigation V2](https://img.shields.io/badge/React%20Navigation-v2.18-blue.svg)](https://reactnavigation.org/)
 
 
