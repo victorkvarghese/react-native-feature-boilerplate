@@ -1,4 +1,4 @@
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 import Login from 'app/features/login/containers/LoginContainer';
 import Home from 'app/features/home/containers/HomeContainer';
@@ -19,4 +19,4 @@ const RNApp = createStackNavigator(
     }
 );
 
-export default RNApp;
+export default createAppContainer(RNApp);
