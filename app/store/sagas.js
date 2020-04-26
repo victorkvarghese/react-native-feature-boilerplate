@@ -9,5 +9,5 @@ import { loginSagas } from 'app/features/login/sagas';
 // export default [loginSaga];
 
 export default function* rootSaga() {
-    yield all([...loginSagas]);
+  yield all([...loginSagas]);
 }
