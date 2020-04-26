@@ -71,11 +71,10 @@ suggest starting with a type based architecture and slowly switching to this arc
 3. Remove `.git` folder, `rm -rf .git`
 4. Use [React Native Rename](https://github.com/junedomingo/react-native-rename) to update project name `$ npx react-native-rename <newName>`
 5. Run `yarn` or `npm install` to install dependencies
-6. Install Pod dependencies using `cd ios/ && pod install && cd ..`
 
-7) Start the packager with `npm start`
-8) Connect a mobile device to your development machine
-9) Run the test application:
+6) Start the packager with `npm start`
+7) Connect a mobile device to your development machine
+8) Run the test application:
 
 - On Android:
   - Run `react-native run-android`
