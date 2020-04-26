@@ -57,8 +57,7 @@ suggest starting with a type based architecture and slowly switching to this arc
       - `containers` - Containers associated with this feature [**Container - Component Structure**]
   - `/lib` - lib helper files
   - `/navigation` - All naviagtion related studd including helpers functions and navigation stack
-    - `NavigationHelpers.js` - Use this class instead of depending on props.naviagtion
-    - `NavigationService.js` - Service class for naviagtion
+    - `NavigationService.js` - Service class for navigation - can be used without using props
     - `NavigationStack.js` - Stack to define naviagtion. you can split things further if needed
   - `/store` - Includes everything you need to set up store.
     - `reducers` - Combines all feature based reducers
