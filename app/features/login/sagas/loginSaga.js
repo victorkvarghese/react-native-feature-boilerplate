@@ -10,7 +10,6 @@ import { delay } from 'redux-saga';
 import { Alert } from 'react-native';
 // import loginUser from 'app/api/methods/loginUser';
 import * as loginActions from '../actions';
-import NavigationService from 'app/navigation/NavigationService';
 
 // Our worker Saga that logins the user
 export default function* loginAsync() {
@@ -24,7 +23,9 @@ export default function* loginAsync() {
   if (response.success) {
     yield put(loginActions.onLoginResponse(response.data));
     yield put(loginActions.disableLoader({}));
-    NavigationService.navigate('Home');
+
+    // no need to call navigate as this is handled by redux store with SwitchNavigator
+    //yield call(navigationActions.navigateToHome);
   } else {
     yield put(loginActions.loginFailed());
     yield put(loginActions.disableLoader({}));
