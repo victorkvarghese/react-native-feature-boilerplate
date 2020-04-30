@@ -25,7 +25,7 @@ suggest starting with a type based architecture and slowly switching to this arc
 ## Features
 
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
-- [React Navigation](https://reactnavigation.org/)
+- [React Navigation](https://reactnavigation.org/) with [Authentication flow](https://reactnavigation.org/docs/auth-flow) baked in.
 - [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler)
 - [React Native Paper](https://callstack.github.io/react-native-paper/)
 - [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
